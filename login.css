@@ -4,6 +4,7 @@ body {
     height: 100vh;
     background: linear-gradient(90deg, #2ca9bc, #a5f0fc);
     background-size: cover;
+    color: #2ca9bc;
 
 }
 
@@ -78,6 +79,17 @@ body {
 
 }
 
+.navbar {
+    background-color: #2ca9bc;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.text-white {
+    color: white;
+}
 
 /* Login Ends */
 
