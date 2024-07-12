@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient(90deg, #2ca9bc, #a5f0fc);
+    background-size: cover;
+
+}
+
+#page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.login-btn {
+    border: 2px solid #ffff;
+    color: #ffff;
+    border-radius: 25px;
+    background-color: #5AC3DA;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background-color: #3a8f9b;
+}
+
+.login-btn-white {
+    border: 2px solid #ffff;
+    color: #ffff;
+    border-radius: 25px;
+    background-color: #46b1c3;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-btn-white:hover {
+    background-color: #3a8f9b;
+}
+
+.login-container {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    height: 500px;
+    padding: 0;
+}
+.login-header {
+    color: #2ca9bc
+}
+.login-right {
+    background: url(/images/login-background.svg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
+
+.login-left {
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    background-color: white;
+
+}
+
+
+/* Login Ends */
+
+/* Homepage Begins */
